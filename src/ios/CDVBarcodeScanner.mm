@@ -170,9 +170,9 @@
                  ];
     // queue [processor scanBarcode] to run on the event loop
 
-    if (preferFrontCamera) {
+    //if (preferFrontCamera) {
       processor.isFrontCamera = true;
-    }
+    //}
 
     if (showFlipCameraButton) {
       processor.isShowFlipCameraButton = true;
